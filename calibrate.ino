@@ -5,6 +5,8 @@
 
 HX711 scale;//initialize the library
 float calibration_factor = -395.5;//play around with this number until you get a value that is in the ball park of your actual weight
+//NOTE: When selecting weights to use for your calibration select AT LEAST 10 different weights in your specific range of weights to test the accuracy and precision of the calibration factor
+//during the calibration process
 //The initial numbers that you will see on your scale will most likely be either way too small or way too large, unless they are about right in which case skip this step
 
 void setup() {
